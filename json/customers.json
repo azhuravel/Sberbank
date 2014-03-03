@@ -1,0 +1,46 @@
+[
+    {
+        "id": "001",
+        "firstname": "Татьяна",
+        "middlename": "Владимировна",
+        "lastname": "Бамович",
+        "phone": "+79106961476",
+        "email": "bamovich2013@gmail.com",
+        "address": "115175, Россия, Москва, Котельническая набережная, 33к1, кв. 150",
+        "tin": "123456789012",
+        "groups": ["1"]
+    },
+    {
+        "id": "002",
+        "firstname": "Иван",
+        "middlename": "Иванович",
+        "lastname": "Иванов",
+        "phone": "+79261234567",
+        "email": "ivanoff@gmail.com",
+        "address": "111333, Россия, Москва, Тверская, 12, кв. 100",
+        "tin": "674530098745",
+        "groups": ["1", "3"]
+    },
+    {
+        "id": "003",
+        "firstname": "Петр",
+        "middlename": null,
+        "lastname": "Петров",
+        "phone": null,
+        "email": null,
+        "address": null,
+        "tin": null,
+        "groups": null
+    },
+    {
+        "id": "004",
+        "firstname": "Константин",
+        "middlename": "Константинович",
+        "lastname": "Константинопольский",
+        "phone": "8(495)2345676",
+        "email": null,
+        "address": null,
+        "tin": null,
+        "groups": null
+    }
+]

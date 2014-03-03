@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Сбербанк</title>
+</head>
+<body>
+<div class='top-block' id="menu">
+    <ul class='left'>
+        <li><a href='#'>Платежи</a></li>
+        <li><a href='#'>Архив платежей</a></li>
+        <li><a href='#'>Поставщики услуг</a></li>
+        <li class='active-item'>Плательщики</li>
+    </ul>
+    <ul class='right'>
+        <li><b>Иван Иванович Иванов</b></li>
+        <li><a href='#'>Выход</a></li>
+    </ul>
+</div>
+<div class='top-block' id="search">
+    <span class="left right-shift">
+        <input type="checkbox"/>
+        <button>Создать плательщика</button>
+    </span>
+    <input id="find" class="right" type="text" placeholder="Поиск" />
+</div>
+<div class="content">
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>Плательщик</td>
+                <td>Электронная почта</td>
+                <td>Телефон</td>
+                <td>Группы</td>
+            </tr>
+        </thead>
+        <tbody id='table-content'>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

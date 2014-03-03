@@ -1,0 +1,109 @@
+* {
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+}
+
+.active-item {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+    background: #EDEAE5;
+}
+
+a {
+    color: #2b61a2;
+}
+
+hr {
+    margin: 0px;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 15px;
+    display: inline;
+}
+
+.top-block {
+    background: #dcdde2;
+    padding: 0;
+    position: relative;
+}
+
+#menu {
+    height: 50px;
+    border-bottom:1px solid #d4d2d0;
+    background: linear-gradient(to bottom,  #F5F5F5, #dcdde2);
+}
+
+#search {
+    height: 70px;
+    border-bottom:3px solid #d4d2d0;
+}
+
+.right {
+    position: absolute;
+    top: 30%;
+    right: 40px;
+}
+
+.left {
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+
+.right-shift {
+    left: 60px;
+}
+
+input[type=text] {
+    padding: 2px 2px 2px 10px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-color: #d4d2d0;
+    border-style: solid;
+}
+
+#find {
+    width: 200px;
+}
+
+input[type=checkbox] {
+    margin: 0;
+}
+
+button {
+    margin-left: 20px;
+}
+
+.content {
+    padding: 5px 50px 0 50px;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    color: #c1bcb2;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    border-bottom:1px solid #d4d2d0;
+}
